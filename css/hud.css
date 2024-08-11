@@ -1,0 +1,105 @@
+body {
+    /* background-color: #777; */
+}
+
+.server__hud {
+    position: absolute;
+    right: 1vw;
+    width: 11vw;
+    top: 1vw;
+}
+
+.server__hud__project {
+    font-family: 'Proxima Nova Rg';
+    font-weight: bold;
+    font-size: 1.75vw;
+    text-align: center;
+    color: #fff;
+    line-height: 70%;
+    text-transform: uppercase;
+}
+
+.roleplay {
+    font-family: 'Proxima Nova Rg';
+    text-align: center;
+    color: #fca055;
+    text-shadow: 0px 0px 80px #fca055;
+    font-size: 0.8vw;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.15vw;
+}
+
+.hud__fist {
+    display: flex;
+    margin-top: 1.5vw;
+    align-items: end;
+    /* justify-content: space-between; */
+}
+
+.hud__fist__ammo {
+    margin-left: 2vw;
+    display: flex;
+    align-items: baseline;
+    gap: 0.2vw;
+}
+
+.ammo1 {
+    font-size: 2vw;
+    font-family: 'Proxima Nova Lt';
+    font-weight: 600;
+    color: #fff;
+}
+
+.ammo2 {
+    font-size: 1vw;
+    font-family: 'Proxima Nova Lt';
+    font-weight: 600;
+    color: #fff;
+}
+
+.hud__info {
+    display: flex;
+    margin-top: 1.2vw;
+    justify-content: space-between;
+}
+
+.hud__fist__image {
+    width: 4vw;
+}
+
+.hud__health__block, .hud__armour__block, .hud__hunger__block {
+    display: flex;
+    align-items: center;
+}
+
+.hud__health__image, .hud__armour__image, .hud__hunger__image {
+    width: 1.2vw;
+}
+
+.hud__money__image {
+    width: 0.95vw;
+    margin-right: 0.2vw;
+}
+
+.hud__health, .hud__armour, .hud__hunger {
+    color: #fff;
+    font-family: 'Proxima Nova Lt';
+    font-weight: 600;
+    padding-right: 0.3vw;
+    font-size: 1vw;
+}
+
+.hud__money__block {
+    display: flex;
+    align-items: baseline;
+    justify-content: right;
+    margin-top: 1vw;
+}
+
+.hud__money {
+    font-family: 'Proxima Nova Rg';
+    font-weight: bold;
+    font-size: 1.65vw;
+    color: #fff;
+}

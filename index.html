@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/dialog.css">
+    <link href="https://cdn.jsdelivr.net/npm/font-proxima-nova@1.0.1/style.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/hud.css">
+</head>
+<body>
+    <div id="hud" class="server__hud" style="display: none;">
+        <div class="server__hud__name">
+            <div class="server__hud__project">Ogonek</div>
+            <div class="roleplay">RolePlay</div>
+        </div>
+        <div class="hud__fist">
+            <img id="gun" src="images/guns/24.png" alt="" class="hud__fist__image">
+            <div class="hud__fist__ammo">
+                <div id="ammo1" class="ammo1">30</div>
+                <div id="ammo2" class="ammo2">60</div>
+            </div>
+        </div>
+        <div class="hud__info">
+            <div class="hud__health__block">
+                <div id="hud_health" class="hud__health">100</div>
+                <img src="images/health-services-svgrepo-com.svg" alt="" class="hud__health__image">
+            </div>
+            <div class="hud__armour__block">
+                <div id="hud_armor" class="hud__armour">0</div>
+                <img src="images/shield-svgrepo-com.svg" alt="" class="hud__armour__image">
+            </div>
+            <div class="hud__hunger__block">
+                <div id="hud_hunger" class="hud__hunger">55</div>
+                <img src="images/fork-and-spoon-meal-svgrepo-com.svg" alt="" class="hud__hunger__image">
+            </div>
+        </div>
+        <div class="hud__money__block">
+            <img src="images/ruble-sign-svgrepo-com.svg" alt="" class="hud__money__image">
+            <div id="hud_money" class="hud__money">1 000 000</div>
+        </div>
+    </div>
+    <script src="js/dialog-functions.js"></script>
+    <script src="js/hud.js"></script>
+</body>
+</html>

@@ -1,0 +1,186 @@
+@font-face {
+	font-family: "Gilroy-Bold"; 
+
+	src: url("Gilroy-Medium.ttf") format("truetype"); 
+} 
+
+body {
+    background-size: cover;
+	overflow-x: none;
+}
+
+#dialog_container {
+    font-family: "Gilroy-Bold"; 
+
+	color: #fff;
+	letter-spacing: -0.2px;
+	font-size: 15px;
+	background: rgba(105, 96, 184, 0.847);
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    padding: 25px 30px;
+    max-width: 900px;
+    width: auto;
+	border-radius: 6px;
+}
+
+.dialogHeader {
+	font-size: 23px;
+	color: #ffffff;
+
+	text-align: center;
+	letter-spacing: -0.5px;
+	margin-bottom: 15px;
+}
+
+.buttons {
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	user-select: none;
+}
+
+.clickBtn {
+	background: rgba(19, 19, 19, 0.192);
+	padding: 10px 14px;
+	margin-right: 5px;
+	margin-left: 5px;
+	opacity: 1;
+	border-radius: 4px;
+    font-family: "Gilroy-Bold"; 
+
+	font-size: 14px;
+	transition: opacity 0.5s;
+	width: 120px;
+	text-align: center;
+
+	transition: .3s;
+}
+
+.red_btn {
+	/* background: rgba(255,94,69,1); */
+}
+
+.clickBtn:hover { background: #fff; color: #252525; }
+
+.dialog_input {
+	width: 92%;
+	background-color: rgba(0, 0, 0, 0.6);
+	outline: 0;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+    font-family: "Gilroy-Bold"; 
+
+	padding: 10px 10px;
+	margin-top: 10px;
+	border-radius: 5px;
+	letter-spacing: -0.5px;
+	font-size: 15px;
+	color: #fff;
+}
+
+.dialogItem {
+	background-color: rgba(17, 16, 16, 0.2);
+	margin-bottom: 5px;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	padding: 11px 15px;
+	text-align: center;
+	min-width: 400px;
+	border-radius: 5px;
+    font-family: "Gilroy-Bold"; 
+
+	letter-spacing: -0.5px;
+	font-size: 15px;
+
+	transition: 0.3s;
+}
+
+.dialogItem:hover {
+	background-color: rgba(17, 16, 16, 0.3);
+	/*color: #fff;*/
+}
+
+.tablist_headers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    align-self: end;
+}
+
+.dialogItemHeader {
+    margin-left: 3px;
+    min-width: 200px;
+    margin-right: 3px;
+}
+
+.styleDialogTablist {
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 10.5pt;
+    color: #fff;
+    border-radius: 9px;
+
+    transition: 0.5s;
+    margin-bottom: 10px;
+}
+
+.dialogText {
+	max-height: 400px;
+	width: 100%;
+    font-family: "Gilroy-Bold"; 
+
+    overflow-y: auto;  
+}
+
+span {
+	color: var(--i);
+	transition: 0.4s;
+}
+
+.dialogItem:hover span {
+  color: var(--g);
+}
+
+::-webkit-scrollbar {
+    position: absolute;
+    width: 3px;       
+    right: 0;      
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(35, 36, 40, 0.15);     
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.5);  
+}
+
+.active_text {
+	color: #252525;
+	/*color: var(--b);*/
+}
+
+.white_back {
+	/* background: linear-gradient(90deg, rgba(10, 94, 49, 1) 0%, rgba(9, 173, 85, 1) 100%); */
+	background-color: rgb(255, 255, 255);
+	color: #252525;
+	border: 1px solid #fff;
+}
+
+.white_back:hover {
+	background-color: rgb(255, 255, 255);
+}
+
+.white_back:hover span {
+  color: #252525;
+}
+
+.noback {
+	background: none;
+	border: 0;
+}
